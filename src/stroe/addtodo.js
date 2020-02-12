@@ -60,7 +60,7 @@ import { Children } from "react";
 		this.todoss = this.todos.filter(
 			todo => !todo.completed
 		);
-		this.todos = this.todoss;
+		this.todos = this.todoss;	
 	}
 
 	@computed get todoscompletedcount() {
